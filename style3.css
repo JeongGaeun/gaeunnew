@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.intro {
+    font-family: 'Gowun Dodum', sans-serif;
+    width: 100%;
+    height: 714px;
+    color: #dfc0c0;
+    background-image: url(25summer_main_8.jpg);
+    background-size: cover;
+
+    .fa-bars {
+        display: none;
+    }
+}
+
+
+.intro-text {
+    color: #3a2e2e;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 180px auto;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(255, 240, 250, 0.75);
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #ff6699;
+        margin-bottom: 12px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #5c5c5c;
+        line-height: 1.6;
+    }
+}
+
+.intro div {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    /* background-color: brown; */
+
+    span {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    header {
+        display: flex;
+        width: 1280px;
+        height: 66px;
+        margin: auto;
+        justify-content: end;
+        align-items: center;
+    }
+
+
+
+    ul {
+        padding: 2px;
+        display: flex;
+        justify-content: right;
+        /* background-color: rgb(252, 252, 252); */
+        font-size: 16px;
+        column-gap: 20px;
+    }
+
+    i {
+        font-size: 20px;
+        color: palevioletred;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.menu {
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.fa-solid {
+    font-size: 38px;
+}
+
+.menu-item {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.menu-item:hover {
+    background-color: rgb(255, 238, 247);
+    color: #ff6699;
+}
+
+
+.tshirt {
+    font-family: 'Spoqa Han Sans Neo';
+    width: 1280px;
+    background-color: white;
+    /* display: flex; */
+    margin: auto;
+    /* position: relative; */
+    top: -66px;
+
+    li {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .tshirt-ex {
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: rgb(39, 39, 39);
+        }
+
+
+        .tshirt-sub {
+            font-size: 19px;
+
+        }
+    }
+
+    img {
+        cursor: pointer;
+        width: 30%;
+        /* width: 400px; */
+        padding: 20px;
+        height: 280px;
+        /* background-color: aqua; */
+
+    }
+}
+
+
+.eunwoo-container {
+    padding: 60px 30px;
+    background-color: #fffafc;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+}
+
+.eunwoo-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ff6f91;
+}
+
+.eunwoo-container p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.eunwoo {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.eunwoo img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-wrap {
+    max-width: 600px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.insta-container {
+    background: #fff0f5;
+    padding: 4rem 1.5rem;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+    color: #444;
+    border-top: 4px dashed #ffb6c1;
+    border-bottom: 4px dashed #ffb6c1;
+}
+
+.insta-icon {
+    font-size: 2.8rem;
+    color: #e1306c;
+    margin-bottom: 1rem;
+    animation: bounce 1.5s infinite;
+}
+
+.insta-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.4rem;
+    letter-spacing: 1px;
+    color: #e1306c;
+}
+
+.insta-container p {
+    margin: 0.4rem 0;
+    font-size: 1.1rem;
+}
+
+.insta-container .highlight {
+    font-weight: bold;
+    color: #ff69b4;
+    background: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.insta-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.2rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.insta-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.insta-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.insta-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.6rem;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+}
+
+.insta-btn:hover {
+    background-color: #e1306c;
+}
+
+/* 아이콘 bounce 애니메이션 */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+.footer {
+    background-color: #fdfafa;
+    padding: 2rem;
+    font-family: 'Gowun Dodum', sans-serif;
+    color: #333;
+    border-top: 1px solid #eee;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #777;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.footer-logo img:hover {
+    opacity: 1;
+}
+
+
+
+/* 반응형 - 모바일 우선 */
+@media (max-width: 768px) {
+
+    .intro {
+        height: auto;
+        background-position: center;
+    }
+
+    .intro-text {
+        width: 90%;
+        margin: 120px auto;
+        padding: 16px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .intro div header {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .intro div ul {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        font-size: 14px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .menu-item {
+        width: 30%;
+    }
+
+    .tshirt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 가로로 두 장씩 */
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .tshirt li {
+        width: 100%;
+    }
+
+    .tshirt img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 0.8rem;
+    }
+
+    .tshirt li .tshirt-ex {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    .eunwoo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .eunwoo img {
+        width: 90%;
+    }
+
+    .text-wrap {
+        max-width: 100%;
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .insta-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 가로로 두 장씩 */
+        gap: 1.2rem;
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+
+    .insta-gallery img {
+        width: 100%;
+        height: 140px;
+        /* 말랑하게 고정 */
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+        object-fit: cover;
+    }
+
+
+    .insta-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .insta-container p {
+        font-size: 1rem;
+    }
+
+    .insta-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-info {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .insta-gallery {
+        grid-template-columns: 1fr;
+        /* 모바일에선 한 줄에 하나 */
+    }
+
+    .insta-gallery img {
+        height: 120px;
+    }
+}
